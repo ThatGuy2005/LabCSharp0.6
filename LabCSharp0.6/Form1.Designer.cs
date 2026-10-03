@@ -51,6 +51,7 @@
             this.down.TabIndex = 1;
             this.down.Text = "Down";
             this.down.UseVisualStyleBackColor = true;
+            this.down.Click += new System.EventHandler(this.down_Click);
             // 
             // welcomeText
             // 
